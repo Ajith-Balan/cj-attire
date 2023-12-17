@@ -1,0 +1,94 @@
+.head img{
+text-align: center;
+width: 10%;
+}
+.head{
+    text-align: center;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.right{
+    display: flex;
+    justify-content: space-around;
+}
+.all{
+    text-align: center;
+    padding-top: 5%;
+}
+    
+.sale img{
+    width: 20%;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+.sale{
+
+    padding-top: 5%;
+}
+
+
+.products{
+    
+    padding-top: 10%;
+}
+ 
+.mrp{
+    display: flex;
+    justify-content: space-around;
+}
+.mrp p{
+    text-decoration: line-through;
+}
+.pica{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pica div{
+    width: 48%;
+}
+.picb{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5%;
+
+}
+.picb div{
+    width: 48%;
+}
+.picc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5%;
+}
+.picc div{
+    width: 48%;
+}
+.picd{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5%;
+}
+.picd div{
+    width: 48%;
+}
+.products img{
+    width:100% ;
+}
+.aji{
+    margin-top: 3%;
+    color: white;
+    background-color: black;
+   text-align: center;
+}
+body{
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
