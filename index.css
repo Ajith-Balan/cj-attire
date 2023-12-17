@@ -41,6 +41,7 @@ width: 10%;
 }
 .mrp p{
     text-decoration: line-through;
+    color: red;
 }
 .pica{
     display: flex;
