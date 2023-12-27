@@ -1,0 +1,15 @@
+body {
+    color: blueviolet;
+}
+.slide{
+
+    width: 40%;
+    
+}
+.container-fluid{
+    display: flex;
+    justify-content: space-evenly;
+}
+.uc{
+    text-align: center;
+}
