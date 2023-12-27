@@ -5,26 +5,7 @@ width: 10%;
 .head{
     text-align: center;
 }
-.top{
-    display: flex;
-    justify-content: space-between;
-}
-.right{
-    
-    display: block;
-    text-align: center;
-    
-}
-.con{
 
-    
-}
-.right h6{
-    border: 1px inset black;
-   background-color: brown;
-    text-decoration: solid;
-    
-}
 .all{
     text-align: center;
     padding-top: 5%;
@@ -40,13 +21,6 @@ width: 10%;
 
     padding-top: 5%;
 }
-
-
-.products{
-    
-    padding-top: 10%;
-}
- 
 .mrp{
     display: flex;
     justify-content: space-around;
@@ -54,45 +28,6 @@ width: 10%;
 .mrp p{
     text-decoration: line-through;
     color: red;
-}
-.pica{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.pica div{
-    width: 48%;
-}
-.picb{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 5%;
-
-}
-.picb div{
-    width: 48%;
-}
-.picc{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 5%;
-}
-.picc div{
-    width: 48%;
-}
-.picd{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 5%;
-}
-.picd div{
-    width: 48%;
-}
-.products img{
-    width:100% ;
 }
 .aji{
     margin-top: 3%;
