@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../third.css">
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> -->
+    
+</head>
+<body>
+  
+    <div class=" menu">
+      <div style="margin-top: 10px;">
+        <i style="margin-left: 10px; " class="bi bi-list "  onclick="toggleSidebar()">Menu</i>
+      </div>
+  
+   
+    <div style="width: 5%; ">
+      <a href="../index.html"><img class="rounded" src="../images/logo.jpeg" alt="" width="100%"></a>
+    </div>
+    </div>
+  
+  <div class="sidebar" id="sidebar">
+    <a href="../index.html">Home</a>
+   
+    
+    <a href="#">UNI-SEX</a><hr class="text-white">  
+    
+  
+    <a href="#">New collections</a>
+    <a href="#">Cartoons</a>
+    <a href="#">Anime</a>
+    <a href="#">Cars</a>
+    <a href="#">Traditional</a>
+      <div class=" text-center" style="display: flex;">
+        <div style="width: 60px;"><a href=""><img src="../images/insta logo.webp" alt="" width="100%"></a></div>
+        <div style="width: 60px;"><a href=""><img src="../images/wtsp logo.webp" alt="" width="100%"></a></div>
+        <div style="width: 60px;"><a href=""><img src="../images/loc logo.webp" alt="" width="100%"></a></div>
+   
+          </div>
+  </div>
+  
+  
+  
+  <div class="overlay" id="overlay" onmousemove="closeSidebar()"></div>
+  <br><br>
+ 
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="../images/trad/IMG_7165.JPG">
+                </div>
+                <div class="item">
+                    <img src="../images/cartoons/IMG_6761.JPG">
+                </div>
+                <div class="item">
+                    <img src="../images/cartoons/IMG_6762.JPG">
+                </div>
+                <div class="item">
+                    <img src="../images/cartoons/IMG_6764.JPG">
+                </div>
+                <!-- <div class="item">
+                    <img src="http://placehold.it/350x250/612b65/fff&amp;text=Product+Image+5">
+                </div>
+                <div class="item">
+                    <img src="http://placehold.it/350x250/00ffff/000&amp;text=Product+Image+6">
+                </div>
+                <div class="item">
+                    <img src="http://placehold.it/350x250/db371b/fff&amp;text=Product+Image+7">
+                </div>
+                <div class="item">
+                    <img src="http://placehold.it/350x250/feb8aa/000&amp;text=Product+Image+8">
+                </div> -->
+            </div>
+            <a class=" carousel-control" href="#carousel" role="button" data-slide="prev">
+              <span class="glyphicon-left"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+              <span class="glyphicon-right"></span>
+          </a>
+        </div> 
+    <div class="clearfix">
+        <div id="thumbcarousel" class="carousel slide" data-interval="false">
+            <div class="carousel-inner ">
+              <b>colour;</b>
+                <div class="item active colo text-center">
+                 
+                    <div data-target="#carousel" data-slide-to="0" class="thumb"><img src="../images/cartoons/IMG_6760.JPG">Black</div>
+                    <div data-target="#carousel" data-slide-to="1" class="thumb"><img src="../images/cartoons/IMG_6761.JPG"> red</div>
+                    <div data-target="#carousel" data-slide-to="2" class="thumb"><img src="../images/cartoons/IMG_6762.JPG">white</div>
+                    <div data-target="#carousel" data-slide-to="3" class="thumb"><img src="../images/cartoons/IMG_6763.JPG">blue</div>
+                </div><!-- /item -->
+                <!-- <div class="item">
+                     <div data-target="#carousel" data-slide-to="4" class="thumb"><img src="http://placehold.it/100/612b65/fff&amp;text=Product+Image+5"></div>
+                    <div data-target="#carousel" data-slide-to="5" class="thumb"><img src="http://placehold.it/100/00ffcc/000&amp;text=Product+Image+6"></div>
+                    <div data-target="#carousel" data-slide-to="6" class="thumb"><img src="http://placehold.it/100/db371b/fff&amp;text=Product+Image+7"></div>
+                    <div data-target="#carousel" data-slide-to="7" class="thumb"><img src="http://placehold.it/100/feb8aa/000&amp;text=Product+Image+8"></div> 
+                </div>/item -->
+            </div><!-- /carousel-inner -->
+            <!-- <a class="left carousel-control" href="#thumbcarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#thumbcarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a> -->
+        </div> <!-- /thumbcarousel -->
+    </div><!-- /clearfix -->
+    <b>size;</b>
+    <div id="size" class="size">
+     
+
+    
+      <button id="div1" type="button"  class=" selectable bg-white  border p-3">S</button>
+      
+      <button id="div3" type="button" class=" selectable bg-white border p-3">M</button>
+      <button id="div4" type="button" class=" selectable bg-white  border p-3">L</button>
+        <button id="div5" type="button"  class="selectable bg-white  border p-3">XL</button>
+ 
+    
+    </div>
+    </div> <!-- /col-sm-6 -->
+
+    
+
+    <div class="col-sm-6">
+      
+      
+
+    <h2>Theyyam</h2>
+    <div class="p-2">
+      <p>oversized T-shirt</p>
+    
+      <div class="price">
+        <b class="text-success"><span class="amount">rs.999</span>rs.399</b>
+        <p class="off">40% off</p>
+      </div>
+    </div>
+    <p class="text-center text-danger text-sm">Take screenshot and send us to buy!</p>
+    <div>
+      <a style="text-decoration: none;" target="_blank" href="https://wa.me/8129718562"><p class="text-center add sticky-bottom">
+        Send us
+        <i class="bi bi-bag-fill"></i>
+      </p></a>
+      
+    </div>
+       
+   
+
+    
+   
+
+
+<h5>Delivery and Payment</h5>
+<h3>Some product subhead</h3>
+<p>Product description goes here.  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.</p>
+    </div> <!-- /col-sm-6 -->
+  </div> <!-- /row -->
+</div> <!-- /container -->
+
+
+
+
+
+
+
+<script src="../third.js"></script>
+</body>
+</html>
